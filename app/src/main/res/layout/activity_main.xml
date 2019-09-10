@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00552E2E"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00743C3C"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:rowCount="5">
+
+        <ImageButton
+            android:id="@+id/imgA"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:scaleType="fitCenter"
+            android:tag="a"
+            app:srcCompat="@drawable/a" />
+
+        <ImageButton
+            android:id="@+id/imgB"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:scaleType="fitCenter"
+            android:tag="b"
+            app:srcCompat="@drawable/b" />
+
+        <ImageButton
+            android:id="@+id/imgC"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:scaleType="fitCenter"
+            android:tag="c"
+            app:srcCompat="@drawable/c" />
+
+        <ImageButton
+            android:id="@+id/imgD"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:scaleType="fitCenter"
+            android:tag="d"
+            app:srcCompat="@drawable/d" />
+
+        <ImageButton
+            android:id="@+id/imgE"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:scaleType="fitCenter"
+            android:tag="e"
+            app:srcCompat="@drawable/e" />
+
+        <ImageButton
+            android:id="@+id/imgF"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:scaleType="fitCenter"
+            android:tag="f"
+            app:srcCompat="@drawable/f" />
+
+        <ImageButton
+            android:id="@+id/imgG"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:scaleType="fitCenter"
+            android:tag="g"
+            app:srcCompat="@drawable/g" />
+
+        <ImageButton
+            android:id="@+id/imgH"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:scaleType="fitCenter"
+            android:tag="h"
+            app:srcCompat="@drawable/h" />
+
+        <ImageButton
+            android:id="@+id/imgI"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:scaleType="fitCenter"
+            android:tag="i"
+            app:srcCompat="@drawable/i" />
+
+        <ImageButton
+            android:id="@+id/imgJ"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:scaleType="fitCenter"
+            android:tag="j"
+            app:srcCompat="@drawable/j" />
+
+        <ImageButton
+            android:id="@+id/imgK"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+            android:scaleType="fitCenter"
+            android:tag="k"
+            app:srcCompat="@drawable/k" />
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
